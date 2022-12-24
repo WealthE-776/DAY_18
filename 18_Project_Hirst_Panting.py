@@ -2,18 +2,9 @@ import colorgram
 import turtle as t
 import random
 
-rgb_colors = []
+# rgb_colors = []
 colors = colorgram.extract('2_hirst_painting.jpg', 100)
-# print(colors)
-#
-# for color in colors:
-#     r = color.rgb.r
-#     g = color.rgb.g
-#     b = color.rgb.b
-#     new_color = (r,g,b)
-#     rgb_colors.append(new_color)
-#
-# print(rgb_colors)
+
 
 t.colormode(255)
 
@@ -56,12 +47,10 @@ while count < 10:
     donney.right(90)
     donney.forward(40)
     donney.right(-90)
-    # donney.pendown()
+  
 
 
 
-#
-# donney.pendown()
 
 screen = t.Screen()
 screen.exitonclick()
